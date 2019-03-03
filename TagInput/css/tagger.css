@@ -1,0 +1,112 @@
+
+
+ .tag-input .tag{
+
+  background-color:#F5B7B1;
+
+    padding:0 5px;
+	border-radius:0;
+	margin:0px 2px 1px 0px;
+	font-size:12px;
+	
+  }
+  .tag-input .sty{
+  
+line-height: 12px;
+  
+ height:inherit;
+  }
+
+  .tag-input .tt{
+
+  border-radius:20%;
+text-decoration:none;
+line-height: 0px;
+text-align:center;
+margin:2px;
+ width:12px;
+ height:12px;
+   text-align: center;
+  color:#3498DB;
+  font-style:bold;
+  border-radius: 50%;
+  display:flex;
+  
+  }
+  
+.wc-cros{
+	background-image:url('../Image/cros.png');
+	background-size:90% 90%;
+	width:inherit;
+	margin:2px;
+	background-repeat:no-repeat;
+	font-weight:lighter;
+	
+}
+  .tag-input a{
+	  
+	  
+	  color:white;
+	  text-decoration:none;
+	  
+	  
+	  
+  }
+  
+   .tag-input  .tt{
+	   
+ color:black;	   
+	   background-color:#3498DB;
+   }
+ .tag-input  .tt:hover{
+  background-color:#F4D03F;
+  color:white;
+  padding:0.2px 0.5px;
+  }
+  .tag-input{
+  border:1px solid #CB4335;
+ 
+ overflow:hidden;
+  width:inherit;
+  max-width:90%;
+ background-color:#FDFEFE;
+  display:flex;
+  }
+  .tag-input .tags{
+ 
+  border:none;
+
+ width:max-content;
+    display:flex;
+  }
+  .tag-input #tg{
+	  
+	  width:max-content;
+	  padding:1px 3px 0px 3px;
+ height:20px;
+	  max-height:inherit;
+     background-color:#008080  ;
+	 display:flex;
+  }
+  
+  .tag-input input{
+	   flex-wrap: wrap;
+	  overflow:hidden;
+  width:90%;
+  
+
+  max-width:100%;
+outline:none;
+border:none;  
+  background-color:#FDFEFE;
+  }
+  
+  .tag-input input[type="text"]:disabled {
+  background-color:#FDFEFE;
+}
+
+.tag-input:focus {
+	
+	background-color:blue;
+	
+}
